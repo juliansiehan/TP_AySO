@@ -1,0 +1,101 @@
+cd ~/repogit/TP_AySOcd ~/repogit/TP_AySO
+cd ~/repogit/TP_Ay   GG
+tiii t
+whoami
+cd
+mkdir repogit
+cd repogit
+git clone https://github.com/juliansiehan/TP_AySO.git
+cd TP_AySO
+grep -i "SYSFS" /etc/mtab > datos_sys.txt
+cat datos_sys.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git config --global user.email "jsiehankiewicz@gmail.com"
+git config --global user.name "Julián Siehankiewicz"
+git commit -m "ADD: agrego el 1er ejercicio de datos_usuarios.txt"
+git status
+git add datos_sys.txt datos_usuario.txt
+git commit -m "ADD: archivos datos_sys.txt y datos_usuario.txt añadidos"
+git push
+git remote -v
+git push
+cd ~/repogit/TP_AySOcd ~/repogit/TP_AySO
+cd ~/repogit/TP_AySO
+git push
+git pushgit push
+AAAAAAAsss1TTTTTTTTTTTDMggggggggggit pushgit pu
+it add git pushgit pushgit pushGitHub-120000
+GitHub-120000
+git push
+j
+rttttt
+git push
+t push
+gtu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git push
+dfsds
+dsd
+fdsdf
+fsd
+cd ~/repogit/TP_AySO
+ls -la
+git status
+git add datos_sys.txt datos_usuario.txt
+git commit -m "ADD: archivos datos_sys.txt y datos_usuario.txt agregados"
+git push
+# Obtener información adicional del usuario de /etc/passwd
+username=$(whoami)
+grep "$username" /etc/passwd | awk -F: '{print "Comentario: "$5; print "Home: "$6}' >> datos_usuario.txt
+cat datos_usuario.txt
+cat << EOF >> README.md
+
+Alumno: Julian Siehankiewicz
+División: [Tu División]
+Turno: [Tu Turno]
+
+cat << EOF >> README.md
+
+Alumno: Julián Siehankiewicz
+División: 116
+Turno: Mañana
+EOF
+
+cat README.md
+git add README.md
+git commit -m "ADD: Añadido el Readme y los datos de usuario"
+git push
+gi
+i psh
+git push
+ff
+f
+fsd
+dfss
+fsd
+f
+sdgit push
+git add README.md
+git commit -m "ADD: Añadido el Readme y los datos de usuario"
+git pu
+git log --oneline
+git status
+cd ~/repogit/TP_AySO
+git add README.md
+git commit -m "ADD: Añadido el Readme y los datos de usuario"
+git push
+mkdir -p TP1/arquitectura/Clase{1,2,3,4,5}
+mkdir -p TP1/so/Clase{1,2,3,4,5,6}
+find TP1 -type d | sort
+cat > script_dir.sh << 'EOF'
+#!/bin/bash
+
+mkdir -p TP1/arquitectura/Clase{1,2,3,4,5}
+mkdir -p TP1/so/Clase{1,2,3,4,5,6}
+EOF
+
+chmod +x script_dir.sh
+git add script_dir.sh
+git commit -m "ADD: Script añadido"
+git push
+history -a
